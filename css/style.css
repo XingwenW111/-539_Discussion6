@@ -83,15 +83,17 @@ h1, h2, h3{
 }
 
 .grid div:nth-child(3n+1)  {
-    /* Set box shadow */
+    box-shadow: 3px 0;
     }
 
 .grid div:nth-child(3n)  {
-    /* Set box shadow */ 
+    box-shadow: -3px 0;
 }
 
 .grid div:nth-child(3n+2)  {
-     /* Set box shadow */
+    box-shadow:
+        -3px 0,
+        3px 0;
 }
     
 
@@ -105,5 +107,5 @@ p{
 
 
 .grid ul li{
-    /* Set margin, line-spacing, list styling  */
+    line-height: 100%;
 }
